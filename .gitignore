@@ -1,2 +1,19 @@
-# .gitignore  
-.env  
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# VSCode settings (optional)
+.vscode/
+
+# Streamlit static cache
+.streamlit/
+
+# Devcontainer (for GitHub Codespaces, optional)
+.devcontainer/
+
